@@ -1,0 +1,18 @@
+# Core ML / data
+datasets>=2.14.0          # HuggingFace datasets — loads MS MARCO
+numpy>=1.24.0             # Dense retrieval + metrics
+
+# Embeddings
+openai>=1.0.0             # text-embedding-3-small API
+
+# Sparse retrieval (BM25 fix)
+rank-bm25>=0.2.2
+
+# Monitoring
+psutil>=5.9.0             # RAM measurement
+
+# Visualization
+matplotlib>=3.7.0
+
+# Environment variables
+python-dotenv>=1.0.0      # loads .env automatically

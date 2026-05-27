@@ -1,0 +1,4 @@
+# Шаблонні файли (data_loader, metrics) використовують тільки datasets.
+# Решту додавайте під свій стек: sentence-transformers, faiss-cpu,
+# qdrant-client, rank_bm25, openai, matplotlib тощо.
+datasets>=2.18
